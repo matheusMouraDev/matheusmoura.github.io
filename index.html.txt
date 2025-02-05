@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matheus Moura - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 1rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        nav a:hover {
+            color: #3498db;
+        }
+
+        main {
+            min-height: 80vh;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .profile {
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .profile img {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Matheus Moura</h1>
+        <p>Desenvolvedor &amp; Designer</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <main>
+        <section class="profile">
+            <!-- Adicione sua foto aqui -->
+            <img src="caminho-para-sua-foto.jpg" alt="Matheus Moura">
+            <h2>Bem-vindo ao Meu Portfólio</h2>
+            <p>Desenvolvedor web apaixonado por criar soluções criativas e funcionais.</p>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos Recentes</h2>
+            <p>Em breve mais detalhes...</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Matheus Moura. Todos os direitos reservados.</p>
+        <div style="margin-top: 0.5rem;">
+            <a href="https://github.com/seu-usuario" target="_blank" style="color: white; margin: 0 0.5rem;">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://linkedin.com/in/seu-perfil" target="_blank" style="color: white; margin: 0 0.5rem;">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+        </div>
+    </footer>
+
+    <!-- Adicione Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</body>
+</html>
